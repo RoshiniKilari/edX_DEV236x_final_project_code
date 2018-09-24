@@ -1,0 +1,28 @@
+def adding_report(report="T"):
+    total=0
+    items=""
+    print("Input an integer to add to the total or \"Q\" to quit\n")
+    while True:
+        ini_input=input("Enter an integer or \"Q\"):")
+        if(ini_input.isdigit()):
+            total += int(ini_input)
+            if(report.upper()=="A"):
+                items=items+ini_input+"\n"
+        elif(ini_input.upper().startswith("Q")):
+            if(report.upper()=="A"):
+                print("Items\n"+items)
+                print("Total\n"+str(total))
+                break
+            elif(report.upper()=="T"):
+                print("Total\n"+str(total))
+                break
+        else:
+            print("Input is invalid")
+            
+while True:
+    a_or_t=input("Enter an input A(items and total) or T(only total): ")
+    if(a_or_t.upper()=="A" or a_or_t.upper()=="T"):
+        adding_report(a_or_t)
+        break
+    else:
+        print("Invalid input!")

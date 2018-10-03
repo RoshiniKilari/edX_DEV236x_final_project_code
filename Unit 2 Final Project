@@ -1,0 +1,32 @@
+Program: Element_Quiz
+In this program the user enters the name of any 5 of the first 20 Atomic Elements and is given a grade and test report for items correct and incorrect.
+
+Sample input and output:
+list any 5 of the first 20 elements in the Period table
+Enter the name of an element: argon
+Enter the name of an element: chlorine
+Enter the name of an element: sodium
+Enter the name of an element: argon
+argon was already entered          <--no duplicates allowed
+Enter the name of an element: helium
+Enter the name of an element: gold
+
+80 % correct
+Found: Argon Chlorine Sodium Helium 
+Not Found: Gold 
+
+
+Create get_names() Function to collect input of 5 unique element names
+
+Create the Program flow
+
+Call the get_names() function
+
+Iterate through 5 responses compare each response to the list of 20 elements any response that is in the list of 20 elements is correct and should be added to a list of correct responses
+if not in the list of 20 elements then add to a list of incorrect responses
+
+calculate the % correct
+Print output
+print the Score % right
+print each of the correct responses
+print each of the incorrect responses

@@ -1,3 +1,25 @@
+<h1>Unit 1:</h1>
+Module 1 | Python & Jupyter Basics
+Build basic Skill with Python and Jupyter Notebooks
+"Hello World!", Data Types & Variables
+Troubleshooting Errors, Input
+Print formatting and Boolean Methods
+<br/>
+Module 2 | Functions
+Functions with Parameters
+Return Values
+Sequence
+<br/>
+Module 3 | Conditionals
+if/else Conditionals with Boolean Methods
+Comparison Operators
+elif, casting and basic math operators
+<br/>
+Module 4 | Nested Conditionals & While Loops
+Nested Conditionals
+while loop, incrementing
+while loops with Boolean Operators
+<br/>
 <h1>Unit 2:</h1>
 Module 1 | Sequence indexes (with Strings)
 Objectives

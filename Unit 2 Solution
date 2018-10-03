@@ -1,0 +1,32 @@
+def get_names():
+    inp_name=[]
+    print("list any 5 of the first 20 elements in the Period table")
+    count=0
+    while count<5:
+        temp_inp=input("Enter the name of an element:")
+        if(inp_name.count(temp_inp)==0 & temp_inp.isalpha()):
+            inp_name.append(temp_inp)
+            count+=1
+        else:
+            print(temp_inp,"was already entered")
+            count=count
+    return inp_name
+    
+!curl "https://raw.githubusercontent.com/MicrosoftLearning/intropython/master/elements1_20.txt" -o elements1_20.txt
+elements_file=open("elements1_20.txt","r")
+element=[]
+for num in range(0,20):
+    element.append(elements_file.readline().strip("\n").lower())
+
+names=get_names()
+crrct_resp=[]
+incrrct_resp=[]
+for name in names:
+    if(element.count(name)>0):
+        crrct_resp.append(name)
+    else:
+        incrrct_resp.append(name)
+perc=len(crrct_resp)*20
+print(perc,"% correct")
+print("Found:"," ".join(crrct_resp).title())
+print("Not Found:"," ".join(incrrct_resp).title())

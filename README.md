@@ -1,4 +1,4 @@
-<h1>Unit 2:<\h1>
+<h1>Unit 2:</h1>
 Module 1 | Sequence indexes (with Strings)
 Objectives
 Accessing String Characters with index

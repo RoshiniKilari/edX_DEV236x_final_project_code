@@ -1,7 +1,7 @@
 <h1>edX-Python course by Microsoft:</h1>
 The course covers all topics mentioned below in an interactive manner.There were a ton of tasks and programs to complete after every topic,which helped in immediate hands-on practice.<b>Jupyter</b> was used to run the code.It is wonderful course to brush one's python skills.
 <br/>
-The list of final project files are the programs that include most of the topics of that unit and were required for completion of the course.
+The list of final project files are the programs that include most of the topics of that unit that were required for completion of the course.
 <h1>Unit 1:</h1>
 Module 1 | Python & Jupyter Basics
 Build basic Skill with Python and Jupyter Notebooks
